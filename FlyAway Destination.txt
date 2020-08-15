@@ -1,0 +1,37 @@
+
+
+use database flyaway_db;
+CREATE TABLE Destination(id int NOT NULL AUTO_INCREMENT , country varchar(255) NOT NULL, PRIMARY KEY(id));
+ INSERT INTO Destination(country)
+   values
+   ('Delhi'), ('Mumbai'), ('Tokyo'), ('Pune'), ('New York'), ('London'),('Bangalore'), ('Hong Kong'), ('Dallas'), ('Australia'),('New Zealand'), ('Chennai'), ('Kolkata'), ('South Korea'), ('Amsterdam'), ('Paris'), ('Budapest'), ('Indoesia'), ('Rome'),
+	('Hyderabad'), ('Berlin'), ('Kochi'), ('Goa'), ('New Jersey');
+ select* from Destination;
++----+-------------+
+| id | country     |
++----+-------------+
+|  1 | Delhi       |
+|  2 | Mumbai      |
+|  3 | Tokyo       |
+|  4 | Pune        |
+|  5 | New York    |
+|  6 | London      |
+|  7 | Bangalore   |
+|  8 | Hong Kong   |
+|  9 | Dallas      |
+| 10 | Australia   |
+| 11 | New Zealand |
+| 12 | Chennai     |
+| 13 | Kolkata     |
+| 14 | South Korea |
+| 15 | Amsterdam   |
+| 16 | Paris       |
+| 17 | Budapest    |
+| 18 | Indoesia    |
+| 19 | Rome        |
+| 20 | Hyderabad   |
+| 21 | Berlin      |
+| 22 | Kochi       |
+| 23 | Goa         |
+| 24 | New Jersey  |
++----+-------------+
